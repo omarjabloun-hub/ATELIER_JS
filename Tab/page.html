@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tab</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="../bootstrap.css">
+</head>
+<body>
+
+
+<div class="row">
+    <div class="col-5">
+        <table id="tabARemplir" class="table table-hover table-striped">
+            <thead>
+                <tr>TO DO LIST</tr>
+            </thead>
+        </table>
+    </div>
+
+    <div class="col-6">
+        <label for="name">Name:</label>
+        <input id="name" type="text" value="" > <br>
+        <label for="content">Content</label>
+        <input id="content" type="text" value="">
+        <button onclick="addTab()" type="button" class="btn btn-dark" >Add Tab</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
