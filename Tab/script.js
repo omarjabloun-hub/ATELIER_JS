@@ -10,7 +10,7 @@ function addTab(){
 
      */
 
-   var row =  tab.insertRow(0);
+   var row =  tab.insertRow(tab.length);
     row.classList.add("table-black");
    var cell0 = row.insertCell(0) ;
    var cell1 = row.insertCell(1);
@@ -33,6 +33,4 @@ function addTab(){
     content.value= "";
 
 }
-function removeTab(){
 
-}
