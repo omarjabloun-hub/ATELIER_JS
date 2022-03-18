@@ -10,15 +10,19 @@
           crossorigin="anonymous">
 
 </head>
-<body class="container-fluid" style="font-size: 15pt ; font-family: Garamond">
-    <div id="text" class="container">
+<body class="container-fluid" style="font-size: 15pt ; font-family: Garamond ;padding: 20px">
+
+    <div id="text" class="container alert-success border justify-content-around" innerTEXT="Test" style="padding: 20px">
         Test
     </div>
+    <br>
     <div class="container-fluid">
+        <label for="Ctext">Enter Text: </label>
+        <textarea id="Ctext" type="textarea" > Text </textarea>
         <label for="color" class="form-label ">Choisir Couleur:</label>
         <input id="color" type="color" class="col-1">
         <label for="size" class="form-label">Choisir taille police</label>
-        <input id="size" type="number" value="15" class="col-1">
+        <input id="size" type="number" value="15" class="col-1" step="2">
         <label for="plSel" class="form-label">Choisir Police</label>
         <select name="Police" id="plSel" class="col-2">
             <option selected value="Garamond">Garamond</option>

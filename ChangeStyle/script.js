@@ -21,7 +21,12 @@ const color = document.querySelector("#color") ;
 
 color.addEventListener("input",function (){
     const body = document.querySelector("#text");
-    const color =  document.querySelector("#color") ;
+
     body.style["color"]=color.value;
+})
+const Ctext = document.querySelector("#Ctext");
+Ctext.addEventListener("input",function (){
+    const body = document.querySelector("#text");
+    body.innerHTML=Ctext.value;
 })
 
