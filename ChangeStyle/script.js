@@ -1,6 +1,6 @@
 // Change police
 const police = document.querySelector("#plSel") ;
-
+console.log(police)
 police.addEventListener("input",function (){
     const body = document.querySelector("#text");
     const selPolice =  document.querySelector("#plSel") ;
